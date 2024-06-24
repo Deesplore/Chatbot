@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 
 load_dotenv()
-
+GOOGLE_API_KEY='AIzaSyC-2p9sD2V3WdBHeK0B-c1SMeKim_G6PoQ'
 # Make sure the environment variable is loaded correctly
 api_key = os.getenv("GOOGLE_API_KEY")
 if api_key is None:
