@@ -19,6 +19,7 @@ import google.generativeai as genai
 
 load_dotenv()
 # Make sure the environment variable is loaded correctly
+GOOGLE_API_KEY= st.secrets['GOOGLE_API_KEY']
 api_key = os.getenv("GOOGLE_API_KEY")
 if api_key is None:
     raise ValueError("GOOGLE_API_KEY environment variable is not set")
