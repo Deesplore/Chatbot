@@ -82,8 +82,8 @@ def user_input(user_question, vector_store):
     st.write("Reply: ", response["output_text"])
 
 def main():
-    st.set_page_config(page_title="Assignment")
-    st.header("AI NXT Assignment")
+    st.set_page_config(page_title="Document Reader")
+    st.header("Document Reader")
 
     if 'vector_store' not in st.session_state:
         st.session_state.vector_store = None
